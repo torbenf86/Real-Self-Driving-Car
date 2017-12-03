@@ -8,6 +8,7 @@ Torben Fischer (Traffic light classification)
 
 ### Approach
 * Traffic Light Detection and Classification
+
 To classify the traffic lights we followed two different approaches. 
 
 The first one included two separate models: a retrained model based on Faster-R-CNN for the traffic light detection, which is using the Tensorflow Object Detection API and a CNN classifier based on LeNet, which classifies the cropped image of the light into green, yellow and red. 
